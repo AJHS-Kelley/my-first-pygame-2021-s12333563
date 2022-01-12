@@ -1,5 +1,6 @@
-# Simple Animation with PyGame, Joshua Clark, 1/12/22, 11:56AM, v0.0
+# Simple Animation with PyGame, Joshua Clark, 1/12/22, 11:56AM, v0.3
 
+from PyGamePractice import GREEN
 import pygame, sys, time
 from pygame.locals import *
 
@@ -19,3 +20,9 @@ UPLEFT = 'upleft'
 UPRIGHT = 'upright'
 
 MOVESPEED = 4
+
+# Setup Color Values
+WHITE = (255, 255, 255)
+RED = (255, 0 , 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
